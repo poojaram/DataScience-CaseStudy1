@@ -32,7 +32,7 @@ The purpose of this assignment is to use case studies to understand and assess h
 
 ## Experimental evidence of mass-scale emotional contagion through social networks
 
-1. What is the purpose of this research?
+1. What is the purpose of this research? _(1 paragraph, 5 points)_
 
 2. Unlike the above study, which was _observational_, this study conducted an _experiment_. Describe, in detail, how the experiment was conducted. Be sure to mention **who** was included in the study, **when** it was conducted, and **how** individuals in the study were _experimented upon_. _(2 paragraphs, 10 points)_
 
@@ -42,7 +42,7 @@ The purpose of this assignment is to use case studies to understand and assess h
 
 5. The statistical analyses presented in the paper report _statistical significance_ with a p-value < .05 (more on this later in the course). However, are their observations _practically significant_ (i.e. meaningful)? How do the authors defend the claim that their observations are socially consequential? _(1 paragraph, 5 points)_
 
-6. Identify a topic/skill in the paper that interests you (statistical method, etc.). Then, do a bit of research, and report back. Feel free to show a sample demonstration of this method in a language of your choice, or a layman's interpretation of what they method does. _(1 - 2 paragraphs, 10 points)_
+6. Identify a topic/skill in the paper that interests you (statistical method, etc.). Then, do a bit of research, and report back. Feel free to show a sample demonstration of this method in a language of your choice, or a layman's interpretation of what they method does. _(~2 paragraphs, 10 points)_
 
 7. What are some of the ethical concerns of conducting such a study? _(1 paragraph, 5 points)_
 
