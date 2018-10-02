@@ -46,7 +46,7 @@ The purpose of this assignment is to use case studies to understand and assess h
 
 7. What are some of the ethical concerns of conducting such a study? _(1 paragraph, 4 points)_
 
-8. Like many studies that seek to measure the effect in an experiment, this was a _case-control_ study. What was the _control_ group, and was it important to include it (why/why not)? _(1 paragraph, 4 points)_
+8. Like many studies that seek to measure the effect in an experiment, this study used a _control group_. Describe how the control group was used in this study, and state why was it important to include it. _(1 paragraph, 4 points)_
 
 9. The presumed _causal pathway_ of this study is that seeing an emotional post _leads to_ a changed emotional state _resulting in_ changes in social media behavior. What are **alternative causal pathways** that explain the relationship between the presumed cause (change in content) and resulting behavior (change in posting). _(1 paragraph, 5 points)_
 
