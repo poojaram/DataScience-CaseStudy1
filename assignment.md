@@ -7,7 +7,7 @@ The purpose of this assignment is to use case studies to understand and assess h
 
 1. What is the purpose of this research? _(1 paragraph, 3 points)_
 
-2. What are current approaches to detecting influenza outbreaks, and what are their limitations? _(1 paragraph, 3 points)_
+2. What are the current (i.e., alternative) approaches to measuring detecting influenza outbreaks, and what are their limitations? _(1 paragraph, 3 points)_
 
 3. The title of the paper introduces two broad concepts: _influenza epidemics_ and _search engine queries_. In order to assess the relationship between these two concepts, each one needs to be mapped to a **data structure**. For each concept, answer the following questions: _(~2 paragraphs, 10 points)_
 
