@@ -6,54 +6,63 @@ The purpose of this assignment is to use case studies to understand and assess h
 ## Detecting influenza epidemics using search engine query data
 
 1. What is the purpose of this research? _(1 paragraph, 3 points)_
+**The purpose of this research is to detect symptoms of influenza virus early so that the impact of both seasonal and pandemic influenza can be reduced. They analyze all the Google search queries to track down the current level of influenza activity in each region of the United States and possibly Globally as well.**
 
 2. What are the current (i.e., alternative) approaches to measuring detecting influenza outbreaks, and what are their limitations? _(1 paragraph, 3 points)_
+**Gathering weekly clinical and virological data from the CDC about the number of 'Influenza-like Illness(ILI)' physician visits were some of the alternative approaches used for measuring/detecting influenza outbreaks. Other alternative attempts have tried to gather this information by tracking over the counter drug sales and frequency of triage advice lines. One big problem with these methods is the lag in reporting time which could go up to 1-2 weeks.**
 
 3. The title of the paper introduces two broad concepts: _influenza epidemics_ and _search engine queries_. In order to assess the relationship between these two concepts, each one needs to be mapped to a **data structure**. For each concept, answer the following questions: _(~2 paragraphs, 10 points)_
 
     a. What were the sources of data? Once the data is formatted for analysis, what does a single observation in the (prepared) data represent (think about the _unit of analysis_)? _(5 points)_
+  **US Centers for Disease Control and Prevention (CDC) was used to collect the influenza epidemic data. The source for search engine queries come from 50 million most common search queries in the unites states between the years 2003 and 2008. For the purpose of analysis, the data was aggregated as weekly counts for every query in each state(region),i.e, week/regioin for unit of analysis. A single observation in the data represents the percentage/probability of a search engine query related to ILI terms.**
 
     b. What concerns do you have about the relationship between the abstract concepts and the data used to represent them in the analysis? Do you feel as if the data adequately captures the concepts? Why/why not? _(5 points)_
+  **More elaboration on concepts regarding the trends in non-flu seasonal data would have been helpful to justify the inference of the analysis on flu-seasonal data further. The data might have problems related to seasonal fluctuations and other biases such as other acute viral diseases during that time. The abstract concept of 'epidemic' is not well defined with respect to the data and how it is being accurately represented. One big problem with these methods is the lag in reporting time and these datasets are not updated in real time.**
 
 4. In the primary statistical analysis, what are the **null and alternate hypothesis**? _(1 paragraph, 4 points)_
-
+**_Null Hypothesis:_ There is no correlation between 'ILI' related search queries and the proportion of visits to the physician that is flu-related.**
+**_Alternate Hypothesis_: There is a relationship between 'ILI' related search queries and the proportion of visits to the physician that is flu-related.**
 5. Both variables used in the study had to be _normalized_ at some point in the analytical process. What does _normalization_ involve, and why was it important for this study? _(1 paragraph, 3 points)_
-
+**The variables used in the study was normalized by dividing the variable with the total number of occurrences in order to factor out indeterminable changes in the number of queries/data values. The count for each query in a particular week divided by the total number of online search queries submitted in that location during the week. It was important to normalize to balance the outliers or imbalance in the data. For example, there could be a sudden increase in the number of search queries during a particular period of time irrespective of the actual 'ILI' related queries being increased. So to obtain the proportion instead of absolute values, we normalize the data by dividing by the total number of queries.**
 6. No data was provided outside the flu season -- do you think this has any implication for the analysis? Why / why not? _(1 paragraph, 4 points)_
-
+**No. The data outside the flu season may have resulted in less overall data for training since the model is currently trained by only high flu-related queries. **
 7. The paper described a method for assessing (validating) their statistical model. What did they do, and what were the results? _(1 paragraph, 5 points)_.
-
+**The researchers compared the results of the analysis with the CDC reported ILI percentages to validate the model. For the purpose of testing, a training dataset was used on the model comprising of 42 points per region for 9 regions. The model was able to get a high correlation between suspect queries and ILI related data with an accuracy of about 0.90.**
 8. Identify a topic/skill in the paper that interests you (statistical method, etc.). Then, do a bit of research, and report back. Feel free to show a sample demonstration of this method in a language of your choice, or a layman's interpretation of what they method does _(~2 paragraphs, 8 points)_.
-
+**Linear Regression is a topic that interested me from this paper. It is one of the very simple but crucial models in statistics to understand the relationship between two or more variables. We feed the data for the 'predictor variables' and try to fit them in a linear relationship with respect to another variable whose value we want to estimate. These linear regression models can be used to 'estimate' or in other words 'predict' the desired variable. For example, we can predict a company's next week's stock prices by using the predictor variables such as the company's stock price for the previous week, the company's assets and acquisitions, etc. Not just that, a linear model can be also used for obtaining qualitative inferences such as which predictors are associated with the response, or what is the relationship between each predictor and the response. For example, how does a certain drug respond to patients with different blood types, and their different levels of effectiveness.**
 9. In layman's terms, what does the linear regression attempt to measure? _(1 paragraph, 4 points)_
-
+**Linear regression is basically a linear function of y (variable we want to predict) modeled on a known variable x (predictors). This equation could be used to predict the nature of future outcomes. **
 10. Overall, what is your impression of this study? Do you believe the insights are reliable and can be applied in real world situations? _(1 paragraph, 4 points)_
-
+**The study was overall good. I liked their approach of using search engine queries for detecting influenza outbreaks and the resulting decrease in the reporting lag time. Thus the data and analysis provided is very crucial.**
 
 ## Experimental evidence of mass-scale emotional contagion through social networks
 
 1. What is the purpose of this research? _(1 paragraph, 3 points)_
-
+**The purpose of this research is to find whether emotional states can be transferred to others by emotional contagion. The researchers tested this by moderating positivity and negativity from people's news feed content to see whether other people's positive/negative experiences posted on social networks affect their own emotions. **
 2. Unlike the above study, which was _observational_, this study conducted an _experiment_. Describe, in detail, how the experiment was conducted. Be sure to mention **who** was included in the study, **when** it was conducted, and **how** individuals in the study were _experimented upon_. _(2 paragraphs, 6 points)_
-
+**Facebook news feed is an indirect way to interact with friends as opposed to direct messages, and the experiment was carried out by altering the amount of positive or negative content (separate groups) users viewed on their news feed. The purpose was to observe whether altering the emotions of the posts seen by individuals will, in turn, affect their own personal emotions when they shared theirs on Facebooks. The experiment was based only on textual posts and not images and was conducted on 689,003 Facebook users who qualified as English speakers. The experiments took place for a week from 11 January - 18 January 2013. The experiment was conducted parallel with one focus group exposed to more positive news on their feed and the other more negative. Moreover, the researchers were also trying to see whether a change in overall emotional content being viewed led to a change in social engagement online. No direct messages or individual content on friends' walls were being altered. **
 3. In order to conduct this study, the researchers had to map from the concepts of emotional positivity/negativity to a dataset. How were these concepts captured in the data, and what are some of the limitations of this approach? _(1 paragraph, 5 points)_
-
+**To capture the concepts the observations were converted using statistical approaches. The researchers used LIWC for mapping of the emotions. The limitation is that a lot of other factors get ignored in the process of quantifying concepts such emotions (a qualitative quantity) which have a lot more independent variables affecting it than the ones assumed in the experiment. **
 4. Using at least one outside reference, identify and describe an alternative approach for determining the emotional content of a piece of text. _(1 paragraph, 4 points)_
-
+**After researching, I found that sentiment analysis in Machine Learning to help derive relationship between  a word and its positive/negative impact. One such model or group of models I futhur studies was called VADER Model. VADER has sever pre-defined 'grammar rules' that helps classify each word as positive, negative or neutral. They use gold-standard sentiment lexicon that is especially attuned to microblog-like contexts such as facebook news feed, tweets, etc.**
+**Link to the paper: http://comp.social.gatech.edu/papers/icwsm14.vader.hutto.pdf*
 5. The statistical analyses presented in the paper report _statistical significance_ with a p-value < .05 (more on this later in the course). However, are their observations _practically significant_ (i.e. meaningful)? How do the authors defend the claim that their observations are socially consequential? _(1 paragraph, 4 points)_
-
+**Yes, the researchers' observations are practically relevant to an extent, since we do have an ever increasing number of people engaging in social media these days. And if a particular event leads to a large number of people posting negative content, the overall emotions of a huge number of viewers could be altered. The researchers defend their claim by mapping their results to preexisting theories about emotional contagion. **
 6. Identify a topic/skill in the paper that interests you (statistical method, etc.). Then, do a bit of research, and report back. Feel free to show a sample demonstration of this method in a language of your choice, or a layman's interpretation of what they method does. _(~2 paragraphs, 8 points)_
-
+**Something that interested me in this article was how the researched chose to select their samples. The researchers chose random sampling as their sampling strategy, in my opinion, this can cause a bias as the sample might contain a higher/lower number of extremely active/inactive Facebook users; in addition, the frequency of posts made might be different from the users in both samples causing a bias in this research. After doing some research online on different sampling strategies, I realized that this research would benefit from using a stratified sampling strategy, wherein a sample is drawn from a number of separate strata of the population, rather than at random from the whole population, in order that it should be representative. This way both samples would have an equal number of extremely active/inactive Facebook users.** 
 7. What are some of the ethical concerns of conducting such a study? _(1 paragraph, 4 points)_
-
+**Ethical concerns regarding this study would mainly comprise of long term effects on people who were repeatedly exposed to negative (less positive) content on their news feed and if they were previously suffering from any mental health issues that the individual was unaware off at the point of the study.**
 8. Like many studies that seek to measure the effect in an experiment, this study used a _control group_. Describe how the control group was used in this study, and state why was it important to include it. _(1 paragraph, 4 points)_
+**The control group was a group of people who did not have their Facebook news feed manipulated. It is important to have a control group to help attribute a cause to an effect. If the researched did not have a control group, they couldn't compare the responses to Facebook feed manipulation against anything. Having a control group helps us establish what normal behavior is.**
 
 9. The presumed _causal pathway_ of this study is that seeing an emotional post _leads to_ a changed emotional state _resulting in_ changes in social media behavior. What are **alternative causal pathways** that explain the relationship between the presumed cause (change in content) and resulting behavior (change in posting). _(1 paragraph, 5 points)_
-
+**Seeing fewer negative or more positive posts on social media might make the individuals feel like the people around them have much better lives than themselves. To make themselves feel socially competent the individuals might post unrealistically positive and it helps them feel accepted and secured.**
 10. The study describes a linear regression as it's primary assessment. Answer the following questions regarding the analysis: _(2 paragraphs, 4 points)_
 
     a. What was the unit of analysis (i.e., what would each row of data represent)? _(2 points)_
-
+**Number of positive/negative posts.**
     b. Explain (intuitively) what this analysis is attempting to measure. _(2 points)_
-
+**The analysis is attempting to measure the change in the number of positive and negative posts due to a radical change in the emotions of posts the viewers see.**
 11. Overall, what is your impression of this study? Do you believe the insights are reliable and can be applied in real world situations? _(1 paragraph, 5 points)_
+**I believe that overall the study does not a significant behavior depicted by individuals on social media, however, does not give very cognitive insights to be applied in the real world since I believe that people posting on social media tend to show off their emotions in extreme ways that may not be the real way they feel about a situation. Besides that, this is a very vast generalization as each individual is entirely different in how they perceive a stimulus and respond to it. Hence, the researchers' conclusion of how people feel based on Facebook posts may not be the best way to judge individuals' emotions. Moreover, I feel visual posts (most of the Facebook posts these days) would also have a strong effect on emotions as opposed to just textual posts. **
+
